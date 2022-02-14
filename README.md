@@ -1,7 +1,7 @@
 # 19-Lists
 Array Lists, Vectors, Singly Liked Lists, Doubly Linked Lists, JDK LinkedList Class
   
-ArrayList
+**ArrayList
   -  Resizable-array implementation of the List interface.  
   -  An ArrayList is backed by an array. To obtain that array  call .toArray() method.  
   -  Has methods that let you work with the list items so you don’t have to work directly on the array.
