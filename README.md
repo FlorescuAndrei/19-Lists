@@ -39,6 +39,7 @@ A Linked List need more memory for un item then Array List because it have to st
 -  Each item contains a link to the next item.  
 -  First item is the Had. Last node point to null.  
 -  Single Linked List is best use when you want to insert and remove items from the front O(1) constant time. Otherwise you have to traverse the list O(n) linear operation.  
+
 Circular linked list is a type of Singly Linked List where the last item point to the head. Advantage is that you can traverse the entire list starting at any node.
 
 
