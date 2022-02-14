@@ -8,10 +8,10 @@ Array Lists, Vectors, Singly Linked Lists, Doubly Linked Lists, JDK LinkedList C
   -  An Element of the ArrayList is not aware about other elements, it only have an index.  
 
   - Is good:   
-    -  for random access if you have the index;  
+    -  for random access if you have the index O(1);  
     -  for iterating over the items in the list.
   - Is NOT good:
-    - for accessing an item in the list when you do not know the index.  
+    - for accessing an item in the list when you do not know the index, because you have to traverse the list O(n).  
     - for inserting, replacing, deleting,  items in any position other than the end. The elements will be shifting around.
     
 add(item)  -> add item at the end of the list	&emsp; &emsp;   	O(1)  
@@ -40,9 +40,17 @@ A Linked List need more memory for un item then Array List because it have to st
 -  First item is the Had. Last node point to null.  
 -  Single Linked List is best use when you want to insert and remove items from the front O(1) constant time. Otherwise you have to traverse the list O(n) linear operation.  
 
-Circular linked list is a type of Singly Linked List where the last item point to the head. Advantage is that you can traverse the entire list starting at any node.
+Circular linked list is a type of Singly Linked List where the last item point to the head. Advantage is that you can traverse the entire list starting at any node.  
 
 
+**Doubly Linked Lists**  
+
+-  Head. Tail. Each item has a next and a previous field.  
+-  Best when you want to work with item at the Head or at the Tail of the list. Constant time O(1)  
+
+
+**JDK LinkedList Class**  
+It is a Doubly Linked List implementation.
 
 
   
