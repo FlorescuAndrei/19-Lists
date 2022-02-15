@@ -6,8 +6,8 @@ Lists
 -  Abstract data types (Interface) – more about behavior and operations, doesn’t dictate how the data is organized(stored). We talk about List not Linked List.  
 
 Classes that implement list: 
--  ArrayList, Vector,  LinkedList,  etc. 
-ArrayList and Vector is backup by an array.  
+-  ArrayList, Vector,  LinkedList,  etc.   
+ArrayList and Vector are backup by an array.  
 LinkedList has no array involved, an element contains reference to another.
   
 **ArrayList**
