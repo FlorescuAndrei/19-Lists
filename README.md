@@ -1,5 +1,14 @@
 # 19-Lists
 Array Lists, Vectors, Singly Linked Lists, Doubly Linked Lists, JDK LinkedList Class
+
+Lists   
+-  Ordered collection (sequence).  
+-  Abstract data types (Interface) – more about behavior and operations, doesn’t dictate how the data is organized(stored). We talk about List not Linked List.  
+
+Classes that implement list: 
+-  ArrayList, Vector,  LinkedList,  etc. 
+ArrayList and Vector is backup by an array.  
+LinkedList has no array involved, an element contains reference to another.
   
 **ArrayList**
   -  Resizable-array implementation of the List interface.  
